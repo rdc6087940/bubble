@@ -1,0 +1,176 @@
+/* ----------------------------------------------
+ * ANIMATION / TEXT / BLUR-OUT
+ * ---------------------------------------------- */
+/* BLUR-OUT */
+#text-blur-out {
+  -webkit-animation: text-blur-out 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-blur-out 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-blur-out {
+  0% {
+    -webkit-filter: blur(0.01);
+    filter: blur(0.01);
+  }
+
+  100% {
+    -webkit-filter: blur(12px) opacity(0%);
+    filter: blur(12px) opacity(0%);
+  }
+}
+
+@keyframes text-blur-out {
+  0% {
+    -webkit-filter: blur(0.01);
+    filter: blur(0.01);
+  }
+
+  100% {
+    -webkit-filter: blur(12px) opacity(0%);
+    filter: blur(12px) opacity(0%);
+  }
+}
+
+/* BLUR-OUT, contract */
+#blur-out-contract {
+  -webkit-animation: blur-out-contract 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: blur-out-contract 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes blur-out-contract {
+  0% {
+    -webkit-filter: blur(0.01);
+    filter: blur(0.01);
+  }
+
+  100% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px) opacity(0%);
+    filter: blur(12px) opacity(0%);
+  }
+}
+
+@keyframes blur-out-contract {
+  0% {
+    -webkit-filter: blur(0.01);
+    filter: blur(0.01);
+  }
+
+  100% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px) opacity(0%);
+    filter: blur(12px) opacity(0%);
+  }
+}
+
+/* BLUR-OUT, contract-bck */
+.blur-out-contract-bck {
+  -webkit-animation: blur-out-contract-bck 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: blur-out-contract-bck 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes blur-out-contract-bck {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-filter: blur(0.01);
+    filter: blur(0.01);
+  }
+
+  100% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-500px);
+    transform: translateZ(-500px);
+    -webkit-filter: blur(12px) opacity(0%);
+    filter: blur(12px) opacity(0%);
+  }
+}
+
+@keyframes blur-out-contract-bck {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-filter: blur(0.01);
+    filter: blur(0.01);
+  }
+
+  100% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-500px);
+    transform: translateZ(-500px);
+    -webkit-filter: blur(12px) opacity(0%);
+    filter: blur(12px) opacity(0%);
+  }
+}
+
+/* BLUR-OUT, expand */
+#blur-out-expand {
+  -webkit-animation: blur-out-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: blur-out-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes blur-out-expand {
+  0% {
+    -webkit-filter: blur(0.01);
+    filter: blur(0.01);
+  }
+
+  100% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px) opacity(0%);
+    filter: blur(12px) opacity(0%);
+  }
+}
+
+@keyframes blur-out-expand {
+  0% {
+    -webkit-filter: blur(0.01);
+    filter: blur(0.01);
+  }
+
+  100% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px) opacity(0%);
+    filter: blur(12px) opacity(0%);
+  }
+}
+
+/* BLUR-OUT, expand-fwd */
+#blur-out-expand-fwd {
+  -webkit-animation: blur-out-expand-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: blur-out-expand-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes blur-out-expand-fwd {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-filter: blur(0.01);
+    filter: blur(0.01);
+  }
+
+  100% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+    transform: translateZ(300px);
+    -webkit-filter: blur(12px) opacity(0%);
+    filter: blur(12px) opacity(0%);
+  }
+}
+
+@keyframes blur-out-expand-fwd {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-filter: blur(0.01);
+    filter: blur(0.01);
+  }
+
+  100% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+    transform: translateZ(300px);
+    -webkit-filter: blur(12px) opacity(0%);
+    filter: blur(12px) opacity(0%);
+  }
+}
