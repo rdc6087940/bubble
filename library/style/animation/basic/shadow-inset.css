@@ -1,0 +1,311 @@
+/* ----------------------------------------------
+ * ANIMATION / BASIC / SHADOW-INSET
+ * ---------------------------------------------- */
+/* SHADOW-INSET, center */
+#shadow-inset-center {
+  -webkit-animation: shadow-inset-center 0.4s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-inset-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes shadow-inset-center {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-center {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* SHADOW-INSET, top */
+#shadow-inset-top {
+  -webkit-animation: shadow-inset-top 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: shadow-inset-top 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes shadow-inset-top {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 6px 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-top {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 6px 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* SHADOW-INSET, right */
+#shadow-inset-right {
+  -webkit-animation: shadow-inset-right 0.4s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-inset-right 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes shadow-inset-right {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset -6px 0 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -6px 0 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-right {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset -6px 0 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -6px 0 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* SHADOW-INSET, bottom */
+#shadow-inset-bottom {
+  -webkit-animation: shadow-inset-bottom 0.4s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-inset-bottom 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes shadow-inset-bottom {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 -6px 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 -6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-bottom {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 -6px 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 -6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* SHADOW-INSET, left */
+#shadow-inset-left {
+  -webkit-animation: shadow-inset-left 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: shadow-inset-left 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes shadow-inset-left {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 6px 0 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 6px 0 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-left {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 6px 0 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 6px 0 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* SHADOW-INSET, lr */
+#shadow-inset-lr {
+  -webkit-animation: shadow-inset-lr 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: shadow-inset-lr 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes shadow-inset-lr {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0),
+      inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0), inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset -6px 0 14px -6px rgba(0, 0, 0, 0.5),
+      inset 6px 0 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -6px 0 14px -6px rgba(0, 0, 0, 0.5),
+      inset 6px 0 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-lr {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0),
+      inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0), inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset -6px 0 14px -6px rgba(0, 0, 0, 0.5),
+      inset 6px 0 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -6px 0 14px -6px rgba(0, 0, 0, 0.5),
+      inset 6px 0 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* SHADOW-INSET, tb */
+#shadow-inset-tb {
+  -webkit-animation: shadow-inset-tb 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: shadow-inset-tb 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes shadow-inset-tb {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0),
+      inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0), inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 -6px 14px -6px rgba(0, 0, 0, 0.5),
+      inset 0 6px 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 -6px 14px -6px rgba(0, 0, 0, 0.5),
+      inset 0 6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-tb {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0),
+      inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0), inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 -6px 14px -6px rgba(0, 0, 0, 0.5),
+      inset 0 6px 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 -6px 14px -6px rgba(0, 0, 0, 0.5),
+      inset 0 6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* SHADOW-INSET, tr */
+#shadow-inset-tr {
+  -webkit-animation: shadow-inset-tr 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: shadow-inset-tr 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes shadow-inset-tr {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset -6px 6px 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -6px 6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-tr {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset -6px 6px 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -6px 6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* SHADOW-INSET, br */
+#shadow-inset-br {
+  -webkit-animation: shadow-inset-br 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: shadow-inset-br 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes shadow-inset-br {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset -6px -6px 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -6px -6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-br {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset -6px -6px 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -6px -6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* SHADOW-INSET, bl */
+#shadow-inset-bl {
+  -webkit-animation: shadow-inset-bl 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: shadow-inset-bl 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes shadow-inset-bl {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 6px -6px 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 6px -6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-bl {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 6px -6px 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 6px -6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* SHADOW-INSET, tl */
+#shadow-inset-tl {
+  -webkit-animation: shadow-inset-tl 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: shadow-inset-tl 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes shadow-inset-tl {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 6px 6px 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 6px 6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-tl {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 6px 6px 14px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 6px 6px 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
