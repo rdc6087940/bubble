@@ -26,6 +26,29 @@
 @import url("animation/basic/slide.css");
 @import url("animation/basic/swing.css");
 
+
+/* ANIMATION ENTRANCES*/
+@import url("animation/entraces/bounce-in.css");
+@import url("animation/entraces/fade-in.css");
+@import url("animation/entraces/flicker-in.css");
+@import url("animation/entraces/flip-in.css");
+@import url("animation/entraces/puff-in.css");
+@import url("animation/entraces/roll-in-blurred.css");
+@import url("animation/entraces/roll-in.css");
+@import url("animation/entraces/rotate-in-2.css");
+@import url("animation/entraces/rotate-in.css");
+@import url("animation/entraces/scale-in.css");
+@import url("animation/entraces/slide-in-bck.css");
+@import url("animation/entraces/slide-in-blurred.css");
+@import url("animation/entraces/slide-in-elliptic.css");
+@import url("animation/entraces/slide-in-fwd.css");
+@import url("animation/entraces/slide-in.css");
+@import url("animation/entraces/slit-in.css");
+@import url("animation/entraces/swing-in.css");
+@import url("animation/entraces/swirl-in.css");
+@import url("animation/entraces/tilt-in-fwd.css");
+@import url("animation/entraces/tilt-in.css");
+
 /* ANIMATION TEXT*/
 @import url("animation/text/blur-out.css");
 @import url("animation/text/flicker.css");
