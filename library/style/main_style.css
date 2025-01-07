@@ -49,6 +49,26 @@
 @import url("animation/entraces/tilt-in-fwd.css");
 @import url("animation/entraces/tilt-in.css");
 
+/* ANIMATION ENTRANCES*/
+@import url("animation/exits/bounce-out.css");
+@import url("animation/exits/fade-out.css");
+@import url("animation/exits/flicker-out.css");
+@import url("animation/exits/flip-out.css");
+@import url("animation/exits/puff-out.css");
+@import url("animation/exits/roll-out-blurred.css");
+@import url("animation/exits/roll-out.css");
+@import url("animation/exits/rotate-out-2.css");
+@import url("animation/exits/rotate-out.css");
+@import url("animation/exits/scale-out.css");
+@import url("animation/exits/slide-out-bck.css");
+@import url("animation/exits/slide-out-blurred.css");
+@import url("animation/exits/slide-out-elliptic.css");
+@import url("animation/exits/slide-out-fwd.css");
+@import url("animation/exits/slide-out.css");
+@import url("animation/exits/slit-out.css");
+@import url("animation/exits/swing-out.css");
+@import url("animation/exits/swirl-out.css");
+
 /* ANIMATION TEXT*/
 @import url("animation/text/blur-out.css");
 @import url("animation/text/flicker.css");
