@@ -79,6 +79,18 @@
 @import url("animation/text/tracking-in.css");
 @import url("animation/text/tracking-out.css");
 
+/* ANIMATION ATTENTION*/
+@import url("animation/attention/vibrate.css");
+@import url("animation/attention/flicker.css");
+@import url("animation/attention/shake.css");
+@import url("animation/attention/jello.css");
+@import url("animation/attention/wobble.css");
+@import url("animation/attention/bounce.css");
+@import url("animation/attention/pulsate.css");
+@import url("animation/attention/blink.css");
+
+
+
 /* Button Transition Animation : Press & Hover*/
 @media (max-width: 768px) {
   #btns {
