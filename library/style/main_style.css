@@ -89,6 +89,11 @@
 @import url("animation/attention/pulsate.css");
 @import url("animation/attention/blink.css");
 
+/* ANIMATION BACKGROUND*/
+@import url("animation/background/bg-pan.css");
+@import url("animation/background/color-change.css");
+@import url("animation/background/ken-burns.css");
+
 
 
 /* Button Transition Animation : Press & Hover*/
