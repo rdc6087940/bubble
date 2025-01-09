@@ -120,6 +120,18 @@
   }
 }
 
+  #btns2 {
+    transition: transform 0.5s;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    user-select: none;
+  }
+
+  #btns2:active {
+    transform: scale(0.9);
+  }
+
+
 /* Lazy Loading - Skeleton */
 #skeleton {
   background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
