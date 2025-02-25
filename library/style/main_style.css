@@ -220,3 +220,29 @@
 #hide-scroll::-webkit-scrollbar{
   display:none;
 }
+
+#editor-wrapper img { 
+
+  max-width: 100%; 
+
+  height: auto; 
+
+} 
+
+
+
+.ql-editor { 
+
+font-size: 14px !important; 
+
+font-family: 'Pretendard' !important; 
+
+} 
+
+
+
+#active-click{ 
+
+  pointer-events: auto; 
+
+}
